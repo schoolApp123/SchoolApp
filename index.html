@@ -83,8 +83,8 @@
                     if(obj.success)
                     {
                         localStorage.setItem("secret", obj.secret);
-//                        window.location.href = 'dashboard.html'; 
-                        $.mobile.changePage('dashboard.html','#loginpage');
+                        window.location = 'dashboard.html'; 
+                       // $.mobile.changePage('dashboard.html','#loginpage');
                     }
                     else
                     {
